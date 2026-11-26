@@ -2,14 +2,19 @@ name: build
 on: { push: { branches: [main] }, workflow_dispatch: {} }
 permissions: { contents: read, pages: write, id-token: write, actions: read }
 jobs:
-  web:
+  build-web:
     runs-on: ubuntu-latest
-    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: web }
+  deploy-web:
+    needs: build-web
+    runs-on: ubuntu-latest
+    permissions: { pages: write, id-token: write, actions: read }
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
       - id: d
         uses: actions/deploy-pages@v4
   android:
