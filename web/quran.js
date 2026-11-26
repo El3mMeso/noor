@@ -24,9 +24,10 @@ async function initQuran() {
   qs('#tafsirSel').innerHTML = TAFSIRS.map(r => `<option value="${r[0]}">${r[1]}</option>`).join(''); qs('#tafsirSel').value = Q.tafKey;
   renderSurahs('');
 }
+const normAr = x => x.replace(/[\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, '').replace(/[أإآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/^سوره\s*/, '');
 function renderSurahs(f) {
-  const t = f.trim();
-  qs('#surahList').innerHTML = Q.meta.filter(s => !t || s.name.includes(t) || s.en.toLowerCase().includes(t.toLowerCase()) || String(s.n) === t)
+  const t = f.trim(), nt = normAr(t), nt2 = nt.replace(/^ال/, '');
+  qs('#surahList').innerHTML = Q.meta.filter(s => { const nn = normAr(s.name); return !t || nn.includes(nt) || nn.replace(/^سوره\s*/, '').replace(/^ال/, '').includes(nt2) || s.en.toLowerCase().includes(t.toLowerCase()) || String(s.n) === t; })
     .map(s => `<li data-n="${s.n}"><span class="num">${AR(s.n)}</span><span class="nm">${s.name}</span><small>${s.type === 'Meccan' ? 'مكية' : 'مدنية'} · ${AR(s.count)} آية</small></li>`).join('');
 }
 async function openSurah(n) {
