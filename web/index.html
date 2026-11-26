@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>نور | مواقيت الصلاة والأذكار</title>
+<meta name="theme-color" content="#0b3d36">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">نور</div>
+  <div id="dates"><span id="hijri"></span><span id="greg"></span></div>
+</header>
+<main>
+  <section id="home" class="tab active">
+    <div class="hero">
+      <div class="city" id="cityLabel"></div>
+      <div class="next-label">الصلاة القادمة</div>
+      <div class="next-name" id="nextName">--</div>
+      <div class="countdown" id="countdown">--:--:--</div>
+    </div>
+    <ul id="times" class="times"></ul>
+    <p class="note" id="methodNote"></p>
+  </section>
+
+  <section id="adhkar" class="tab">
+    <div id="adhkarCats" class="cats"></div>
+    <div id="adhkarList"></div>
+  </section>
+
+  <section id="quran" class="tab">
+    <div id="qList">
+      <input id="qSearch" type="search" placeholder="ابحث باسم السورة أو رقمها">
+      <ul id="surahList" class="slist"></ul>
+    </div>
+    <div id="qReader" hidden>
+      <div class="qbar"><button class="ghost" id="qBack">رجوع</button><b id="qTitle"></b><button class="ghost" id="qPlayAll">تشغيل السورة</button></div>
+      <div class="qopts">
+        <label>القارئ<select id="reciterSel"></select></label>
+        <label>التفسير<select id="tafsirSel"></select></label>
+      </div>
+      <div id="qAyahs" class="mushaf"></div>
+      <p class="note" id="tafsirSrc"></p>
+    </div>
+  </section>
+
+  <section id="tasbeeh" class="tab">
+    <div class="tasbeeh">
+      <select id="dhikrSel">
+        <option>سُبْحَانَ اللَّهِ</option><option>الْحَمْدُ لِلَّهِ</option><option>اللَّهُ أَكْبَرُ</option>
+        <option>لَا إِلَهَ إِلَّا اللَّهُ</option><option>أَسْتَغْفِرُ اللَّهَ</option><option>لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ</option>
+        <option>اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ</option>
+      </select>
+      <button id="tapBtn" aria-label="سبّح"><span id="tapCount">0</span></button>
+      <div class="row"><button class="ghost" id="resetTasbeeh">تصفير</button><span id="tasbeehTotal"></span></div>
+    </div>
+  </section>
+
+  <section id="qibla" class="tab">
+    <div class="qibla">
+      <div class="dial" id="dial"><div class="needle" id="needle"></div><div class="kaaba"><b></b></div></div>
+      <div id="qiblaDeg" class="big"></div>
+      <p class="note">الزاوية من الشمال الحقيقي باتجاه الكعبة. على الجوال اضغط «تشغيل البوصلة» لتدور الإبرة مع اتجاه الهاتف.</p>
+      <button id="compassBtn">تشغيل البوصلة</button>
+    </div>
+  </section>
+
+  <section id="settings" class="tab">
+    <label>المدينة
+      <select id="citySel"></select>
+    </label>
+    <button id="geoBtn" class="ghost">استخدام موقعي الحالي</button>
+    <label>طريقة الحساب
+      <select id="methodSel"></select>
+    </label>
+    <label>المذهب في العصر
+      <select id="asrSel"><option value="0">الجمهور (المثل)</option><option value="1">الحنفي (المثلان)</option></select>
+    </label>
+    <label>نظام الساعة
+      <select id="hourSel"><option value="1">12 ساعة</option><option value="0">24 ساعة</option></select>
+    </label>
+    <label>صوت الأذان (المؤذن)
+      <select id="adhanSel"></select>
+    </label>
+    <button class="ghost" id="adhanPreview">تجربة الصوت</button>
+    <label class="check"><input type="checkbox" id="notifyChk"> تنبيه عند دخول وقت كل صلاة</label>
+    <label class="check"><input type="checkbox" id="soundChk"> تشغيل صوت الأذان مع التنبيه</label>
+    <label class="check"><input type="checkbox" id="adhkarChk"> تذكير بأذكار الصباح والمساء</label>
+    <p class="note" id="notifyNote"></p>
+    <div class="about" id="about"></div>
+    <p class="note">المصادر: حساب الأوقات فلكيًا بزوايا الهيئة المصرية العامة للمساحة (المعتمدة لدى دار الإفتاء المصرية: الفجر 19.5° والعشاء 17.5°). الأذكار من حصن المسلم والصحيحين والسنن مع عزو كل ذكر لمصدره. يُنصح بمراجعة الإعلان الرسمي لمسجدك أو دار الإفتاء عند الاختلاف.</p>
+  </section>
+</main>
+<nav>
+  <button data-tab="home" class="on"><i></i><small>الصلاة</small></button>
+  <button data-tab="adhkar"><i></i><small>الأذكار</small></button>
+  <button data-tab="quran"><i></i><small>القرآن</small></button>
+  <button data-tab="tasbeeh"><i></i><small>المسبحة</small></button>
+  <button data-tab="qibla"><i></i><small>القبلة</small></button>
+  <button data-tab="settings"><i></i><small>الإعدادات</small></button>
+</nav>
+<script src="prayer.js"></script>
+<script src="adhkar.js"></script>
+<script src="quran.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

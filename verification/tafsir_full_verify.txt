@@ -1,0 +1,4 @@
+ar.muyassar vs ar-tafsir-muyassar | fetched chapters 114 | ayahs 6236 exact(normalized) 4522 | not exact 1714 | worst [(3, 1, 0.05), (7, 1, 0.057), (14, 1, 0.078), (14, 2, 0.078), (29, 1, 0.078), (12, 1, 0.08)]
+ar.waseet vs ar-tafsir-al-wasit | fetched chapters 104 | ayahs 5638 exact(normalized) 5539 | not exact 99 | worst [(6, 5, 0.0), (7, 36, 0.0), (7, 112, 0.0), (9, 59, 0.0), (11, 31, 0.0), (15, 24, 0.0)]
+ar.jalalayn vs ar-tafsir-al-jalalayn | fetched chapters 112 | ayahs 1699 exact(normalized) 968 | not exact 786 | worst [(2, 'len', 283, 286), (3, 'len', 196, 200), (4, 'len', 175, 176), (5, 'len', 118, 120), (6, 'len', 164, 165), (7, 'len', 199, 206)]
+Muyassar vs fawazahmed0 ara-kingfahadquranc: 6236 / 6236

@@ -1,0 +1,70 @@
+:root{--bg:#0b3d36;--card:#124f46;--gold:#e3c26b;--txt:#f4f1e6;--mut:#a9c7bf}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:linear-gradient(#0b3d36,#072a25);color:var(--txt);font-family:"Noto Naskh Arabic","Amiri","Segoe UI",Tahoma,sans-serif;min-height:100vh;padding-bottom:84px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid #ffffff18}
+.brand{font-size:26px;color:var(--gold);font-weight:700}
+#dates{display:flex;flex-direction:column;text-align:left;font-size:13px;color:var(--mut)}
+#hijri{color:var(--txt);font-size:15px}
+main{max-width:640px;margin:0 auto;padding:14px}
+.tab{display:none}.tab.active{display:block}
+.hero{background:var(--card);border-radius:22px;padding:22px;text-align:center;border:1px solid #ffffff14;box-shadow:0 8px 24px #0006}
+.city{color:var(--mut);font-size:14px}
+.next-label{margin-top:8px;color:var(--mut);font-size:14px}
+.next-name{font-size:40px;color:var(--gold);font-weight:700}
+.countdown{font-size:38px;letter-spacing:2px;font-variant-numeric:tabular-nums;direction:ltr}
+.times{list-style:none;margin:14px 0;padding:0;display:grid;gap:8px}
+.times li{display:flex;justify-content:space-between;background:var(--card);padding:14px 18px;border-radius:14px;font-size:20px;border:1px solid transparent}
+.times li.next{border-color:var(--gold);background:#1a6156}
+.times li.past{opacity:.55}
+.times li .tm{font-variant-numeric:tabular-nums;direction:ltr}
+.note{color:var(--mut);font-size:13px;line-height:1.7}
+.cats{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px}
+.cats button,.ghost,#compassBtn{background:var(--card);color:var(--txt);border:1px solid #ffffff22;border-radius:20px;padding:8px 16px;font:inherit;white-space:nowrap;cursor:pointer}
+.cats button.on{background:var(--gold);color:#222;font-weight:700}
+.dhikr{background:var(--card);border-radius:16px;padding:16px;margin:10px 0}
+.dhikr .tx{font-size:21px;line-height:2.1}
+.dhikr .src{color:var(--mut);font-size:12.5px;margin-top:6px}
+.dhikr .ctl{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.dhikr .cnt{background:var(--gold);color:#222;border:0;border-radius:24px;padding:8px 20px;font:inherit;font-weight:700;cursor:pointer}
+.dhikr.done{opacity:.5}.dhikr.done .cnt{background:#4caf7d;color:#fff}
+.tasbeeh,.qibla{text-align:center;padding-top:10px}
+select{width:100%;background:var(--card);color:var(--txt);border:1px solid #ffffff22;border-radius:12px;padding:12px;font:inherit;font-size:17px;margin-top:6px}
+#tapBtn{width:210px;height:210px;border-radius:50%;margin:26px auto;display:block;background:radial-gradient(circle at 35% 30%,#2a8a79,#124f46);border:4px solid var(--gold);color:var(--txt);font-size:64px;cursor:pointer;font-family:inherit}
+#tapBtn:active{transform:scale(.96)}
+.row{display:flex;justify-content:center;gap:16px;align-items:center}
+.dial{width:240px;height:240px;border-radius:50%;margin:20px auto;border:4px solid var(--gold);position:relative;background:var(--card)}
+.needle{position:absolute;inset:0;transition:transform .3s}
+.needle::before{content:"";position:absolute;left:50%;top:14px;width:6px;height:100px;margin-left:-3px;background:linear-gradient(var(--gold),transparent);border-radius:3px}
+.kaaba{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:36px}
+.big{font-size:28px;color:var(--gold)}
+label{display:block;margin:14px 0;color:var(--mut)}
+label.check{display:flex;gap:10px;align-items:center;color:var(--txt);font-size:17px}
+input[type=checkbox]{width:22px;height:22px;accent-color:var(--gold)}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#06231f;border-top:1px solid #ffffff18;padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;background:none;border:0;color:var(--mut);padding:10px 0 8px;font-size:22px;font-family:inherit;cursor:pointer}
+nav button small{display:block;font-size:12px}
+nav button.on{color:var(--gold)}
+nav button i{display:block;width:22px;height:22px;margin:0 auto 2px;border-radius:7px;border:2px solid currentColor}
+nav button.on i{background:currentColor}
+.kaaba b{width:46px;height:46px;background:#111;border:2px solid var(--gold);display:block}
+@font-face{font-family:"AmiriQuran";src:url(fonts/AmiriQuran.ttf)}
+.slist{list-style:none;padding:0;margin:10px 0}
+.slist li{display:flex;justify-content:space-between;align-items:center;background:var(--card);padding:12px 16px;border-radius:12px;margin:6px 0;cursor:pointer}
+.slist .num{background:var(--gold);color:#222;border-radius:50%;width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;margin-left:12px}
+.slist .nm{font-family:AmiriQuran,serif;font-size:22px;flex:1}.slist small{color:var(--mut)}
+#qSearch{width:100%;padding:12px;border-radius:12px;border:1px solid #ffffff22;background:var(--card);color:var(--txt);font:inherit}
+.qbar{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:8px}
+.qopts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mushaf .ay{background:var(--card);border-radius:14px;padding:14px;margin:10px 0}
+.mushaf .at{font-family:AmiriQuran,serif;font-size:27px;line-height:2.3}
+.mushaf .bism{text-align:center;font-family:AmiriQuran,serif;font-size:26px;color:var(--gold);margin:10px 0}
+.mushaf .no{display:inline-block;color:var(--gold);font-size:18px}
+.mushaf .ctl{display:flex;gap:8px;margin-top:6px}
+.mushaf .ctl button{background:#ffffff14;color:var(--txt);border:0;border-radius:16px;padding:6px 14px;font:inherit;cursor:pointer}
+.mushaf .ay.playing{outline:2px solid var(--gold)}
+.mushaf .tf{margin-top:8px;color:#d7ece6;font-size:16px;line-height:1.9;border-top:1px dashed #ffffff30;padding-top:8px;max-height:260px;overflow:auto}
+.about{margin-top:18px;padding:14px;border-radius:14px;background:var(--card);font-size:14px;line-height:1.9;color:var(--txt)}
+.about b{color:var(--gold)}
+nav button small{font-size:11px}
+.weak{background:#b0603a;color:#fff;border-radius:8px;padding:1px 8px;margin-left:6px}
+.notice{background:#fff3d6;color:#5a4300;border-radius:10px;padding:8px 10px;margin:8px 0}

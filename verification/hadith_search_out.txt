@@ -1,0 +1,82 @@
+morning[0] n=1 src='آية الكرسي: من قالها حين يصبح أُجير من الجن حتى يم'
+   q='اعوذ بالله من الشيطان الرجيم' hits=[('bukhari', 6115, []), ('muslim', 6646, []), ('muslim', 6647, []), ('abudawud', 4781, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Bukhari (2382) Sahih Muslim (2610)')]), ('tirmidhi', 3452, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Daif')])]
+morning[1] n=3 src='سورة الإخلاص: تكفيك من كل شيء (رواه أبو داود والتر'
+   q='قل هو الله احد الله الصمد' hits=[('muslim', 1889, []), ('tirmidhi', 2897, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')]), ('tirmidhi', 3364, [('Shakir', 'Hasan'), ('Al-Albani', 'Hasan'), ('Zai', 'Daif')]), ('nasai', 994, [('Ghuddah', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Isnaad Hasan')])]
+morning[2] n=3 src='سورة الفلق (رواه أبو داود والترمذي)'
+   q='قل اعوذ برب الفلق من شر' hits=[('nasai', 5433, [('Ghuddah', 'Sahih Isnaad'), ('Al-Albani', 'Sahih Isnaad'), ('Zai', 'Hasan')])]
+morning[3] n=3 src='سورة الناس (رواه أبو داود والترمذي)'
+   q='قل اعوذ برب الناس' hits=[('bukhari', 5017, []), ('muslim', 1891, []), ('abudawud', 1462, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Isnaad Hasan')]), ('abudawud', 5056, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Bukhari (5017)')]), ('tirmidhi', 2902, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Muslim')]), ('tirmidhi', 3402, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Bukhari')])]
+morning[4] n=1 src='رواه مسلم'
+   q='اصبحنا واصبح الملك لله والحمد لله' hits=[('tirmidhi', 3390, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Muslim')])]
+morning[5] n=1 src='رواه الترمذي'
+   q='اللهم بك اصبحنا وبك امسينا وبك' hits=[('abudawud', 5068, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Isnaad Sahih')]), ('tirmidhi', 3391, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan'), ('Zai', 'Hasan')]), ('ibnmajah', 3868, [('Al-Albani', 'Sahih'), ('al-Baqi', 'Sahih'), ('Zai', 'Isnaad Sahih')])]
+morning[6] n=1 src='سيد الاستغفار: من قاله موقنًا به حين يصبح فمات من '
+   q='اللهم انت ربي لا اله الا' hits=[('bukhari', 6306, []), ('bukhari', 6323, []), ('abudawud', 5070, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Zai', 'Isnaad Sahih')]), ('tirmidhi', 3393, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih')]), ('nasai', 5522, [('Ghuddah', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Bukhari')]), ('ibnmajah', 3872, [('Al-Albani', 'Sahih'), ('al-Baqi', 'Sahih'), ('Zai', 'Isnaad Sahih')])]
+morning[7] n=3 src='كان حقًّا على الله أن يرضيه يوم القيامة (رواه أحمد'
+   q='رضيت بالله ربا وبالاسلام دينا وبمحمد' hits=[('abudawud', 1529, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Isnaad Sahih')]), ('tirmidhi', 3389, [('Shakir', 'Daif'), ('Al-Albani', 'Daif'), ('Maarouf', 'Hasan'), ('Zai', 'Hasan')]), ('ibnmajah', 721, [('Al-Albani', 'Sahih'), ('al-Baqi', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Muslim')]), ('ibnmajah', 3870, [('Al-Albani', 'Daif'), ('al-Baqi', 'Daif'), ('Zai', 'Hasan')])]
+morning[8] n=7 src='كفاه الله ما أهمه (رواه أبو داود موقوفًا)'
+   q='حسبي الله لا اله الا هو' hits=[('abudawud', 5081, [('Al-Albani', 'Mawdu'), ('Hamid', 'Mawdu'), ('Zai', 'Isnaad Hasan')]), ('tirmidhi', 3103, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Bukhari')])]
+morning[9] n=100 src='حُطّت خطاياه وإن كانت مثل زبد البحر (رواه البخاري '
+   q='سبحان الله وبحمده' hits=[('bukhari', 6405, []), ('bukhari', 6406, []), ('bukhari', 6682, []), ('bukhari', 7563, []), ('muslim', 1088, []), ('muslim', 6842, [])]
+morning[10] n=10 src='كان كمن أعتق أربعة أنفس من ولد إسماعيل (رواه البخا'
+   q='لا اله الا الله وحده لا' hits=[('bukhari', 844, []), ('bukhari', 1154, []), ('bukhari', 1797, []), ('bukhari', 2995, []), ('bukhari', 3293, []), ('bukhari', 3435, [])]
+morning[11] n=100 src='كان النبي صلى الله عليه وسلم يستغفر في اليوم أكثر '
+   q='استغفر الله واتوب اليه' hits=[('bukhari', 6307, []), ('muslim', 1088, []), ('abudawud', 1277, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Isnaad Sahih')]), ('abudawud', 4380, [('Al-Albani', 'Daif'), ('Hamid', 'Daif'), ('Zai', 'Daif')]), ('nasai', 4877, [('Ghuddah', 'Daif'), ('Al-Albani', 'Daif'), ('Zai', 'Daif')]), ('ibnmajah', 2597, [('Al-Albani', 'Daif'), ('al-Baqi', 'Daif'), ('Zai', 'Daif')])]
+evening[0] n=1 src='آية الكرسي: من قالها حين يمسي أُجير من الجن حتى يص'
+   q='اعوذ بالله من الشيطان الرجيم' hits=[('bukhari', 6115, []), ('muslim', 6646, []), ('muslim', 6647, []), ('abudawud', 4781, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Bukhari (2382) Sahih Muslim (2610)')]), ('tirmidhi', 3452, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Daif')])]
+evening[1] n=3 src='رواه أبو داود والترمذي'
+   q='قل هو الله احد الله الصمد' hits=[('muslim', 1889, []), ('tirmidhi', 2897, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')]), ('tirmidhi', 3364, [('Shakir', 'Hasan'), ('Al-Albani', 'Hasan'), ('Zai', 'Daif')]), ('nasai', 994, [('Ghuddah', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Isnaad Hasan')])]
+evening[2] n=3 src='رواه أبو داود والترمذي'
+   q='قل اعوذ برب الفلق من شر' hits=[('nasai', 5433, [('Ghuddah', 'Sahih Isnaad'), ('Al-Albani', 'Sahih Isnaad'), ('Zai', 'Hasan')])]
+evening[3] n=3 src='رواه أبو داود والترمذي'
+   q='قل اعوذ برب الناس' hits=[('bukhari', 5017, []), ('muslim', 1891, []), ('abudawud', 1462, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Isnaad Hasan')]), ('abudawud', 5056, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Bukhari (5017)')]), ('tirmidhi', 2902, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Muslim')]), ('tirmidhi', 3402, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Bukhari')])]
+evening[4] n=1 src='رواه مسلم'
+   q='امسينا وامسي الملك لله والحمد لله' hits=[('muslim', 6907, []), ('muslim', 6908, []), ('muslim', 6909, []), ('abudawud', 5071, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Zai', 'Sahih Muslim (2732)')]), ('tirmidhi', 3390, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Muslim')])]
+evening[5] n=1 src='رواه الترمذي'
+   q='اللهم بك امسينا وبك اصبحنا وبك' hits=[('tirmidhi', 3391, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan'), ('Zai', 'Hasan')]), ('ibnmajah', 3868, [('Al-Albani', 'Sahih'), ('al-Baqi', 'Sahih'), ('Zai', 'Isnaad Sahih')])]
+evening[6] n=3 src='من قالها حين يمسي ثلاث مرات لم تضره حُمّة تلك اللي'
+   q='اعوذ بكلمات الله التامات من شر' hits=[('muslim', 6878, []), ('muslim', 6879, []), ('muslim', 6880, []), ('abudawud', 3898, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Zai', 'Isnaad Sahih')]), ('tirmidhi', 3437, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Muslim')]), ('tirmidhi', 3604.02, [])]
+evening[7] n=3 src='لم يضره شيء (رواه أبو داود والترمذي)'
+   q='بسم الله الذي لا يضر مع' hits=[('abudawud', 5088, [('Al-Albani', 'Sahih'), ('Zai', 'Sahih')]), ('tirmidhi', 3388, [('Shakir', 'Hasan Sahih'), ('Al-Albani', 'Hasan Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')]), ('ibnmajah', 3869, [('Al-Albani', 'Sahih'), ('al-Baqi', 'Sahih'), ('Arnaut', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')])]
+evening[8] n=7 src='رواه أبو داود موقوفًا'
+   q='حسبي الله لا اله الا هو' hits=[('abudawud', 5081, [('Al-Albani', 'Mawdu'), ('Hamid', 'Mawdu'), ('Zai', 'Isnaad Hasan')]), ('tirmidhi', 3103, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Bukhari')])]
+evening[9] n=100 src='رواه مسلم'
+   q='سبحان الله وبحمده' hits=[('bukhari', 6405, []), ('bukhari', 6406, []), ('bukhari', 6682, []), ('bukhari', 7563, []), ('muslim', 1088, []), ('muslim', 6842, [])]
+prayer[0] n=3 src='كان النبي صلى الله عليه وسلم إذا انصرف من صلاته اس'
+   q='استغفر الله' hits=[('bukhari', 6307, []), ('muslim', 1088, []), ('muslim', 1334, []), ('muslim', 2330, []), ('muslim', 4431, []), ('muslim', 6858, [])]
+prayer[1] n=1 src='رواه مسلم'
+   q='اللهم انت السلام ومنك السلام تباركت' hits=[('muslim', 1334, []), ('muslim', 1335, []), ('abudawud', 1512, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Muslim (592)')]), ('tirmidhi', 298, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Muslim')]), ('tirmidhi', 300, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Sahih Muslim')]), ('nasai', 1337, [('Ghuddah', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Sahih Muslim')])]
+prayer[2] n=33 src='رواه مسلم'
+   q='سبحان الله' hits=[('bukhari', 86, []), ('bukhari', 115, []), ('bukhari', 184, []), ('bukhari', 283, []), ('bukhari', 285, []), ('bukhari', 314, [])]
+prayer[3] n=33 src='رواه مسلم'
+   q='الحمد لله' hits=[('bukhari', 743, []), ('bukhari', 843, []), ('bukhari', 1154, []), ('bukhari', 1356, []), ('bukhari', 2276, []), ('bukhari', 3700, [])]
+prayer[4] n=33 src='رواه مسلم'
+   q='الله اكبر' hits=[('bukhari', 89, []), ('bukhari', 371, []), ('bukhari', 610, []), ('bukhari', 795, []), ('bukhari', 803, []), ('bukhari', 843, [])]
+prayer[5] n=1 src='تمام المائة بعد التسبيح والتحميد والتكبير (رواه مس'
+   q='لا اله الا الله وحده لا' hits=[('bukhari', 844, []), ('bukhari', 1154, []), ('bukhari', 1797, []), ('bukhari', 2995, []), ('bukhari', 3293, []), ('bukhari', 3435, [])]
+prayer[6] n=1 src='من قرأها دبر كل صلاة لم يمنعه من دخول الجنة إلا ال'
+   q='الله لا اله الا هو الحي' hits=[('bukhari', 2311, []), ('muslim', 1885, []), ('abudawud', 1460, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Muslim (810)')]), ('abudawud', 1496, [('Al-Albani', 'Hasan'), ('Hamid', 'Hasan'), ('Arnaut', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')]), ('abudawud', 4003, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih Lighairihi'), ('Zai', 'Sahih')]), ('tirmidhi', 3478, [('Shakir', 'Hasan'), ('Al-Albani', 'Hasan'), ('Maarouf', 'Hasan Sahih'), ('Zai', 'Isnaad Hasan')])]
+sleep[0] n=1 src='رواه البخاري ومسلم'
+   q='باسمك ربي وضعت جنبي وبك ارفعه' hits=[('abudawud', 5050, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Zai', 'Sahih Bukhari (6320) Sahih Muslim (2714)')]), ('tirmidhi', 3401, [('Shakir', 'Hasan'), ('Al-Albani', 'Hasan'), ('Maarouf', 'Hasan'), ('Zai', 'Daif')])]
+sleep[1] n=3 src='رواه أبو داود والترمذي'
+   q='اللهم قني عذابك يوم تبعث عبادك' hits=[('abudawud', 5045, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih Lighairihi'), ('Zai', 'Isnaad Hasan')])]
+sleep[2] n=1 src='رواه البخاري'
+   q='باسمك اللهم اموت واحيا' hits=[('bukhari', 6324, [])]
+sleep[3] n=33 src='ثم الحمد لله 33 والله أكبر 34 (رواه البخاري ومسلم)'
+   q='سبحان الله' hits=[('bukhari', 86, []), ('bukhari', 115, []), ('bukhari', 184, []), ('bukhari', 283, []), ('bukhari', 285, []), ('bukhari', 314, [])]
+sleep[4] n=33 src='رواه البخاري ومسلم'
+   q='الحمد لله' hits=[('bukhari', 743, []), ('bukhari', 843, []), ('bukhari', 1154, []), ('bukhari', 1356, []), ('bukhari', 2276, []), ('bukhari', 3700, [])]
+sleep[5] n=34 src='رواه البخاري ومسلم'
+   q='الله اكبر' hits=[('bukhari', 89, []), ('bukhari', 371, []), ('bukhari', 610, []), ('bukhari', 795, []), ('bukhari', 803, []), ('bukhari', 843, [])]
+wake[0] n=1 src='رواه البخاري'
+   q='الحمد لله الذي احيانا بعد ما' hits=[('bukhari', 6312, []), ('bukhari', 6314, []), ('bukhari', 6324, []), ('bukhari', 6325, []), ('bukhari', 7394, []), ('bukhari', 7395, [])]
+misc[0] n=1 src='دعاء الخروج من المنزل (رواه أبو داود والترمذي)'
+   q='ولا حول ولا قوه الا بالله' hits=[('bukhari', 1120, []), ('bukhari', 1154, []), ('abudawud', 832, [('Al-Albani', 'Hasan'), ('Hamid', 'Hasan'), ('Zai', 'Hasan')]), ('abudawud', 1500, [('Al-Albani', 'Daif'), ('Hamid', 'Daif'), ('Arnaut', 'Hasan Lighairihi'), ('Zai', 'Isnaad Hasan')]), ('abudawud', 1507, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih')]), ('abudawud', 5060, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Arnaut', 'Sahih'), ('Zai', 'Sahih Bukhari (1154)')])]
+misc[1] n=1 src='قبل الطعام. وإن نسي في أوله قال: بسم الله أوله وآخ'
+   q='بسم الله' hits=[('bukhari', 7, []), ('bukhari', 141, []), ('bukhari', 1454, []), ('bukhari', 2731, []), ('bukhari', 2732, []), ('bukhari', 2940, [])]
+misc[2] n=1 src='بعد الطعام (رواه أبو داود والترمذي)'
+   q='الحمد لله الذي اطعمني هذا ورزقنيه' hits=[('tirmidhi', 3458, [('Shakir', 'Hasan'), ('Al-Albani', 'Hasan'), ('Maarouf', 'Hasan'), ('Zai', 'Isnaad Hasan')]), ('ibnmajah', 3285, [('Al-Albani', 'Hasan'), ('al-Baqi', 'Hasan'), ('Arnaut', 'Hasan'), ('Zai', 'Isnaad Hasan')])]
+misc[3] n=1 src='البقرة: 201، وكان أكثر دعاء النبي صلى الله عليه وس'
+   q='ربنا اتنا في الدنيا حسنه وفي' hits=[('bukhari', 4522, []), ('bukhari', 6389, []), ('muslim', 6841, []), ('abudawud', 1519, [('Al-Albani', 'Sahih'), ('Hamid', 'Sahih'), ('Zai', 'Sahih Bukhari (6389) Sahih Muslim (2690)')]), ('abudawud', 1892, [('Al-Albani', 'Hasan'), ('Hamid', 'Hasan'), ('Zai', 'Isnaad Hasan')]), ('tirmidhi', 3488, [('Zai', 'Daif')])]
+misc[4] n=1 src='دعاء ذي النون (رواه الترمذي)'
+   q='لا اله الا انت سبحانك اني' hits=[('tirmidhi', 3505, [('Shakir', 'Sahih'), ('Al-Albani', 'Sahih'), ('Zai', 'Isnaad Sahih')])]
