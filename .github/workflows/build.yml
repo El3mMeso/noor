@@ -1,6 +1,6 @@
 name: build
 on: { push: { branches: [main] }, workflow_dispatch: {} }
-permissions: { contents: read, pages: write, id-token: write }
+permissions: { contents: read, pages: write, id-token: write, actions: read }
 jobs:
   web:
     runs-on: ubuntu-latest
