@@ -26,9 +26,9 @@ Instagram: [@el3mm_mesoo](https://www.instagram.com/el3mm_mesoo/)
 
 ## صدقة جارية | Sadaqah Jariyah
 
-هذا العمل **صدقة جارية عن أرواح جميع موتى المسلمين**. اللهم اغفر لهم وارحمهم وعافهم واعف عنهم، ونوّر قبورهم ووسّع مدخلهم. من انتفع به فليدعُ لهم.
+هذا العمل **صدقة جارية على أرواح جميع موتى المسلمين**. اللهم اغفر لهم وارحمهم وعافهم واعف عنهم، ونوّر قبورهم ووسّع مدخلهم. من انتفع به فليدعُ لهم.
 
-This project is an ongoing charity (sadaqah jariyah) on behalf of all deceased Muslims. Anyone who benefits from it is asked to make du'a for them. The dedication must be kept with any copy (see LICENSE).
+This project is an ongoing charity (sadaqah jariyah) for the souls of all deceased Muslims. Anyone who benefits from it is asked to make du'a for them. The dedication must be kept with any copy (see LICENSE).
 
 
 ## تنبيه مهم | Important notice
