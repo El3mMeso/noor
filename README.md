@@ -1,6 +1,6 @@
 # نور | Noor
 
-**حقوق النشر © 2026 el3mm_mesoo. جميع الحقوق محفوظة.** · Copyright (c) 2026 el3mm_mesoo. **All Rights Reserved.**
+**حقوق النشر © 2026 el3mm_mesoo. مرخّص بموجب GPL-3.0.** · Copyright (c) 2026 el3mm_mesoo. **Licensed under GPL-3.0** (see `LICENSE` and `NOTICE.md`).
 
 Instagram: [@el3mm_mesoo](https://www.instagram.com/el3mm_mesoo/)
 
@@ -28,7 +28,7 @@ Instagram: [@el3mm_mesoo](https://www.instagram.com/el3mm_mesoo/)
 
 هذا العمل **صدقة جارية على جميع موتى المسلمين**. اللهم اغفر لهم وارحمهم واجعل هذا العمل في ميزان حسناتهم. لا تنساهم في دعواتك.
 
-This project is an ongoing charity (sadaqah jariyah) for all deceased Muslims. O Allah, forgive them, have mercy on them, and put this work in the scale of their good deeds. Do not forget them in your prayers. The dedication must be kept with any copy (see LICENSE).
+This project is an ongoing charity (sadaqah jariyah) for all deceased Muslims. O Allah, forgive them, have mercy on them, and put this work in the scale of their good deeds. Do not forget them in your prayers. The dedication must be kept with any copy (see NOTICE.md).
 
 
 ## تنبيه مهم | Important notice
