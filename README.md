@@ -7,6 +7,8 @@ Instagram: [@el3mm_mesoo](https://www.instagram.com/el3mm_mesoo/)
 [![الموقع | Website](https://img.shields.io/badge/Website-Open-0b3d36)](https://el3mmeso.github.io/noor/) [![Android APK](https://img.shields.io/badge/Android-APK-0b3d36)](https://github.com/El3mMeso/noor/releases/latest)
 
 - **الموقع | Website:** https://el3mmeso.github.io/noor/ (يعمل على الموبايل ويمكن إضافته للشاشة الرئيسية | works on mobile, can be added to the home screen)
+- **صفحة التحميل | Download page:** https://el3mmeso.github.io/noor/download.html
+- **متجر F-Droid الخاص | F-Droid repo:** `https://el3mmeso.github.io/fdroid/repo`
 - **أندرويد | Android:** https://github.com/El3mMeso/noor/releases/latest (APK موقّع، مع SHA-256 | signed APK with SHA-256)
 
 > **تنبيه | Notice:** لم تتم بعد مراجعة شرعية نهائية للنصوص الدينية. التفاصيل أدناه. | The religious texts have not had a final scholarly review yet. Details below.

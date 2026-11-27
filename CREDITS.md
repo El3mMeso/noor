@@ -3,7 +3,7 @@
 | Item | Source | Terms |
 |---|---|---|
 | Prayer time method | Egyptian General Authority of Survey angles (Fajr 19.5, Isha 17.5), as used by Dar al-Ifta al-Misriyyah | Method/angles only. Own implementation |
-| Quran text (Uthmani, Hafs) | https://alquran.cloud (api.alquran.cloud, edition quran-uthmani) | Check alquran.cloud terms; text is the Tanzil Uthmani text. Tanzil terms require keeping text unaltered and crediting tanzil.net |
+| Quran text (Uthmani, Hafs) | https://alquran.cloud (api.alquran.cloud, edition quran-uthmani) | Check alquran.cloud terms; text is the Tanzil Uthmani text. Tanzil Quran Text, Copyright (C) 2007-2021 Tanzil Project, CC BY 3.0. Terms: verbatim copies only, credit Tanzil and link tanzil.net. Full notice in `web/data/q/TANZIL-NOTICE.txt`. See the open question about the text edits in VERIFICATION.md |
 | Tafsir al-Muyassar | King Fahd Complex, via alquran.cloud | Check Complex terms before commercial use |
 | Tafsir al-Jalalayn | al-Mahalli & al-Suyuti (public domain text), via alquran.cloud | Public domain work; digital edition per alquran.cloud |
 | Al-Tafsir al-Waseet | Muhammad Sayyid Tantawi, via alquran.cloud; matched with Quran.com resource 93 | Check publisher rights before commercial use |
